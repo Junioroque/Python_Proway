@@ -4,6 +4,9 @@ nome = input("Infome o seu nome: ");
 print(nome); 
 print(type(nome));
 
+idade = input("Informe sua idade: ");
+print("Sua idade: ", idade);
+
 print("============================");
 # Inteiro
 numero = 5;
@@ -21,3 +24,4 @@ print("============================");
 a = True;
 print(a);
 print(type(a));
+
