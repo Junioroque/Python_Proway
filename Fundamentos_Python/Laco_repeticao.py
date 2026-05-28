@@ -9,4 +9,7 @@ while (numero <= 10):
     
     numero+= 1;     
     
-# 
+# for
+valor = int(input("Informe o valor da tabuada: "));
+for x in range(1, 11):
+    print(f'{x} x {valor} = {x * valor}');
