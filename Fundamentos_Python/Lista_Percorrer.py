@@ -20,3 +20,16 @@ if (existe):
     print(produto+ ' foi excluido da lista.');
 else:
     print(produto + ' não existe na lista.');
+    
+# Ordenar lista e Reverse lista
+print(itens);
+print("Lista Ordenar: ");
+itens.sort();
+print(itens);
+print("Lista Reverse: ")
+itens.reverse();
+print(itens);
+
+# Tamanho da lisa
+print("Tamanho da lista: ");
+print(len(itens));
