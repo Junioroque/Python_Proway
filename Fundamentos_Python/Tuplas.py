@@ -15,17 +15,22 @@ for x in range(0, len(tupla)):
 dia_semana = ('dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sab');
 #print(dia_semana[2]);
 
-print('-------------------------');
+print('-------------------------------------------');
 # Faça um exercicio que o usuário informe o dia da 
 # semana e retorne a posição em que se encontra do item.
 
 print('[Dom | Seg | Ter | Qua | Qui | Sex | Sab]');
 opcao = input("Informe o dia da semana desejado: ");
-
+existe = False;
 
 for x in range(0, len(dia_semana)):
     if(dia_semana[x].upper() == opcao.upper()):
-        print(str(x+1));
+        existe = True;
+
+if(existe):
+    print('Dia da semana está na posição ' + str(x));
+else:
+    print('Dia da semana inválido!');
         
 
 
