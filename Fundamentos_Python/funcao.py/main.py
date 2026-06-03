@@ -1,6 +1,7 @@
 import funcao
 
-usuario = input('Informe o nome de usuário para acessar o sistema: ');
+usuario = input('Informe o login: ');
+senha = input('Informe a senh: ');
 
-funcao.ValidarAcesso(usuario);
+funcao.ValidarAcesso(usuario, senha);
 
