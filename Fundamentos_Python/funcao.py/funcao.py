@@ -60,7 +60,10 @@ def MostraMenuPrincipal():
                 print(nome, ' não está cadastrado!');
         elif(opcao == 4):
             # Visualizar
-            print(produtos);
+            if(len(produtos) == 0):
+                print('Nenhum produto cadastrado!');
+            else:
+                print(produtos);
         elif(opcao == 5):
             print('Obrigado por utilizar o nosso sistema...');
         else:
