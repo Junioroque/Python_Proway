@@ -1,0 +1,3 @@
+Carlos, 150
+Maria, 120
+Jose, 110
